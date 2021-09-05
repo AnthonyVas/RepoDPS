@@ -22,19 +22,22 @@ export default function App() {
     var x1;
     var x2;
 
-    if (d < 0) {
-      d = -d;
-      alert('Solucion imaginaria.');
-    } else alert('Solucion real.');
-
     if (a != 0) {
       x1 = (-b + Math.sqrt(d)) / (2 * a);
       x2 = (-b - Math.sqrt(d)) / (2 * a);
+      if (d < 0) {
+        d = -d;
+        alert('Solucion imaginaria.');
+      } else alert('Solucion real.');
+  
     } else {
       x1 = 0;
       x2 = 0;
       alert('Funcion improcesable, MathError.');
     }
+
+  
+   
 
     var total = 'Resultado:  x1= ' + x1 + ', x2= ' + x2;
     setResultado(total);
