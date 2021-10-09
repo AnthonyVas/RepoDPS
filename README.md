@@ -1,2 +1,3 @@
 # Desafio-II
-Este correo es para manejar las guias de laboratorio de la materia DPS 05L
+Ejercicio 1: Week-10/Desafio-II
+Ejercicio 2: https://snack.expo.dev/@gi191421/parcial-2
